@@ -24,7 +24,7 @@ OS: Windows 11 Version 22H2
    - For other version of nodejs images tag, you can check on this link https://hub.docker.com/_/node/
 
 ## Download Nodejs Hello World(app.js) and Prepare Dockerfile
-1. Download app.js from https://gist.github.com/berdoezt/e51718982926f0caa3fcd8ed45111430 and move new folder
+1. Download app.js from https://gist.github.com/berdoezt/e51718982926f0caa3fcd8ed45111430 and move to new folder
 2. Create file with name Dockerfile, edit file with this code, and save at same folder with app.js
    ```
    #Tells docker base image to use
