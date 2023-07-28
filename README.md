@@ -17,13 +17,13 @@ NodeJS: Version 18.17.0(LTS)
    ```
    ![6i_1](https://github.com/RevoU-FSSE-2/Muhammad-Faisal-Kemal_Weekly_W6/assets/130155172/234e0cb9-95d3-4afa-88d7-3048e7067b77)
 ## Download Nodejs Image on Docker
-   - Download nodejs version 18.17.0(LTS) image on docker with this code
+   - Download nodejs version 18.17.0(LTS) image on docker with this command
       ```
       docker pull node:18.17.0-alpine
       ```
       
       https://github.com/RevoU-FSSE-2/Muhammad-Faisal-Kemal_Weekly_W6/assets/130155172/81977c8a-3742-487e-8781-c53f74f2b242
-   - For other version of nodejs images tag, you can check on this link https://hub.docker.com/_/node/
+   - For other version of nodejs images tag, you can check at this link https://hub.docker.com/_/node/
 
 ## Download Nodejs Hello World(app.js) and Prepare Dockerfile
 1. Download app.js from https://gist.github.com/berdoezt/e51718982926f0caa3fcd8ed45111430 and move to new folder
@@ -60,7 +60,7 @@ NodeJS: Version 18.17.0(LTS)
    ```
    docker images
    ```
-3. Run app with this command(port 3001 is docker port and port 3000 is pipe to access docker port 3001)
+3. Run app with this command(binds port 3001 of container to port 3000 of host)
    ```
    docker run -p 3000:3001 nodejs_hello-world
    ```
