@@ -50,19 +50,19 @@ OS: Windows 11 Version 22H2
    ```
 
 ## Dockerize Nodejs Hello World(app.js) And Run It
-1. Open folder of the app on command prompt, after that run this code
+1. Open folder of the app on command prompt, after that run this command
    ```
    docker build -t nodejs_hello-world .
    ```
-2. Check images succesful built with this code
+2. Check images succesful built with this command
    ```
    docker images
    ```
-3. Finally, run app with this code(port 3001 is docker port and port 3000 is pipe to access docker port 3001)
+3. Run app with this command(port 3001 is docker port and port 3000 is pipe to access docker port 3001)
    ```
    docker run -p 3000:3001 nodejs_hello-world
    ```
-4. Open browser to check app running well with this link
+4. Finally, open browser to check app running well with this link
    ```
    localhost:3000
    ```
