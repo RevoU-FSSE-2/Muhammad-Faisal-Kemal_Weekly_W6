@@ -1,7 +1,9 @@
 # Week 6 Assignment - Dockerize Nodejs Hello World App
 OS: Windows 11 Version 22H2
+
 Docker Desktop: 4.21.1.114176
-NodeJS: Version 18.17.0(LTS)
+
+NodeJS Docker Image: Version 18.17.0(LTS)
 ## Install Docker and Update WSL
 1. Download docker desktop from www.docker.com and run it
    
